@@ -1,0 +1,137 @@
+body {background-color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+header{ background-color: #FFA500;
+
+}
+
+header ul {list-style: none; padding-left: 2px; padding-right: 2px;text-align: center;}
+
+header ul li { margin: 5px; padding: 5px; display: inline-block; text-decoration: none; }
+
+
+h1 {color: #0000FF;}
+
+h2 {color: #4169E1;}
+
+h3  {color:#6A5ACD}
+
+h4 {color: #FFA500;}
+
+
+li {color:#FFA500;
+
+}
+
+p {color: cornsilk;}
+
+.servicio { background-color: #FFA500;display: inline-block; width: 500px;height: 400px;padding:40px ;
+
+}
+
+.servicio__precio { font-size: 20px;}
+
+.servicio__imagen { width: 300px; height: 300px;}
+
+table { border: 3px;
+        font-size: 15px;}
+
+tr , td {border: 2px solid}
+
+
+
+.titulo {color: #0000FF;
+         text-align: center;  
+         
+         
+}        
+
+.menutrabajos {
+        display:flex;
+        padding: 10px;
+        flex-direction: column;
+        border: 2px solid black;
+    
+    
+    } 
+        
+ .menutrabajos div {
+        background-color: #FFA500;
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 2px solid black;
+
+
+    } 
+        
+        
+        
+        
+
+
+.imagen {
+    width: 100%;
+}
+
+.imagen img { width: 100%;}
+
+.galeria {
+    width: 100%;
+    margin: auto;   
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);  
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+
+
+
+    @media (min-width:728px){}
+        .galeria { grid-template-columns: repeat(3,1fr);}
+
+    @media (min-width:1024px){}
+        .galeria {grid-template-columns: repeat(4,1fr);}
+
+        
+
+
+
+
+
+
+.soporte {height:200px; width: 300px;}
+
+
+
+
+
+
+
+
+
+
+footer {background-color: #6A5ACD;height: 50px; clear: both;}
+
+
+
+
+
+
+
+
+
+  
+    
+  
+  
+  
+ 
+
+ 
+
+
