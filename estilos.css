@@ -79,32 +79,14 @@ tr , td {border: 2px solid}
 
 .imagen img { width: 100%;}
 
-.galeria {
-    width: 100%;
-    margin: auto;   
-    display: grid;
-    grid-template-columns: repeat( 2,1fr);  
-    column-gap: .5rem;
-    row-gap: .5rem;
-}
-
-
-
-
-    @media (min-width:728px){}
-        .galeria { grid-template-columns: repeat(3,1fr);}
-
-    @media (min-width:1024px){}
-        .galeria {grid-template-columns: repeat(4,1fr);}
-
-        
-
-
-
-
-
 
 .soporte {height:200px; width: 300px;}
+
+
+.carousel-inner img {
+    margin: auto;
+    
+}
 
 
 
